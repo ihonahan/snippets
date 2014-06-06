@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransferCenterViewController">
+            <connections>
+                <outlet property="alertButton" destination="AWG-F7-Pfb" id="2vt-go-SVt"/>
+                <outlet property="alertContainer" destination="UPU-E7-61W" id="7Hy-Ps-Eaw"/>
+                <outlet property="alertContentContainer" destination="R85-mI-W71" id="cbm-fn-QEP"/>
+                <outlet property="alertMessage" destination="iMH-4a-dAU" id="nGj-1C-rfc"/>
+                <outlet property="alertTitle" destination="KpG-z6-8NM" id="c9n-tI-IYC"/>
+                <outlet property="backgroundImage" destination="K5a-pz-JVn" id="yhr-LK-fAk"/>
+                <outlet property="fullContainer" destination="4QR-Ud-jTT" id="OUq-gR-zhv"/>
+                <outlet property="leaderboardButton" destination="51u-l3-5My" id="QrI-Zp-55F"/>
+                <outlet property="levelBuyContainer" destination="E2i-Tw-V3l" id="JLP-eI-ku8"/>
+                <outlet property="levelBuyLabel" destination="UzN-uR-IuZ" id="Vnt-8V-adi"/>
+                <outlet property="menuButton" destination="1v1-R0-DmM" id="5Wt-L0-BON"/>
+                <outlet property="normalBuyContainer" destination="abc-V7-LCS" id="sN3-xm-gyJ"/>
+                <outlet property="normalBuyLabel" destination="dv0-qB-QBK" id="gcY-2z-O3M"/>
+                <outlet property="notificationBadgeContainer" destination="k6c-Xw-6QV" id="98Q-hJ-lzV"/>
+                <outlet property="notificationBadgeLabel" destination="0Fd-8m-MBP" id="R9I-GS-0dG"/>
+                <outlet property="notificationButton" destination="j0C-EI-rEv" id="WWK-Qu-3BV"/>
+                <outlet property="sinContainer" destination="cTf-E0-Mc2" id="jJ5-4b-v7n"/>
+                <outlet property="transferBuyButton" destination="xHk-30-2cz" id="nL5-3V-g3d"/>
+                <outlet property="transferCoinsButton" destination="zSC-jd-Z2H" id="vbd-1Y-SwZ"/>
+                <outlet property="transferSellButton" destination="vNS-Rf-8ap" id="doU-fh-vdA"/>
+                <outlet property="transferTabButtonsContainer" destination="5Ab-Ck-yse" id="3Ka-bv-ZWr"/>
+                <outlet property="transferTabContainer" destination="Mzs-QL-DD4" id="T2S-oP-E2b"/>
+                <outlet property="userCoinsLabel" destination="MVI-ys-dZY" id="QMV-JP-WNH"/>
+                <outlet property="userInfoContainer" destination="Blo-zz-Lcd" id="hrN-hm-umq"/>
+                <outlet property="userMoreButton" destination="d4a-nD-F4Z" id="vlu-RJ-oR0"/>
+                <outlet property="userXPLabel" destination="ugI-nI-GzI" id="wGW-8X-Odr"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="yardImage" destination="5RV-sn-70G" id="1RZ-UD-Zl4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inicio_ios-25.png" id="K5a-pz-JVn">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="4QR-Ud-jTT">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inicio_ios-40.png" id="5RV-sn-70G">
+                            <rect key="frame" x="46" y="206" width="200" height="112"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="cTf-E0-Mc2">
+                            <rect key="frame" x="51" y="0.0" width="128" height="320"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="Mzs-QL-DD4" userLabel="TabContainer">
+                            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1v1-R0-DmM">
+                            <rect key="frame" x="4" y="270" width="41" height="47"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" backgroundImage="home_ios-19.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapUpMenu:" destination="-1" eventType="touchUpInside" id="6Rc-4M-HFY"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="Blo-zz-Lcd">
+                            <rect key="frame" x="0.0" y="0.0" width="275" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-09.png" id="kFq-M6-H4r">
+                                    <rect key="frame" x="10" y="7" width="265" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d4a-nD-F4Z">
+                                    <rect key="frame" x="237" y="5" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="7" minY="8" maxX="8" maxY="8"/>
+                                    <state key="normal" image="home_ios-08.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpUserMore:" destination="-1" eventType="touchUpInside" id="RGE-jd-bkG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="51u-l3-5My">
+                                    <rect key="frame" x="61" y="10" width="76" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpLeaderboard:" destination="-1" eventType="touchUpInside" id="sF3-HN-Aw3"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ugI-nI-GzI">
+                                    <rect key="frame" x="90" y="10" width="28" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-42.png" id="Etl-89-NJg">
+                                    <rect key="frame" x="95" y="14" width="19" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lvl" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gRw-wS-zSD">
+                                    <rect key="frame" x="116" y="11" width="33" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+9999999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MVI-ys-dZY">
+                                    <rect key="frame" x="137" y="11" width="72" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-43.png" id="kG0-NF-7to">
+                                    <rect key="frame" x="64" y="12" width="29" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-07.png" id="kit-nh-mPz">
+                                    <rect key="frame" x="208" y="14" width="33" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j0C-EI-rEv">
+                                    <rect key="frame" x="14" y="9" width="58" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="5" minY="3" maxX="30" maxY="3"/>
+                                    <state key="normal" image="noti_ios-06.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpNotification:" destination="-1" eventType="touchUpInside" id="Bha-kP-CoQ"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" id="k6c-Xw-6QV">
+                                    <rect key="frame" x="36" y="13" width="22" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noti_ios-05.png" id="dbl-wy-qSX">
+                                            <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Fd-8m-MBP">
+                                            <rect key="frame" x="1" y="1" width="20" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="bBL-Uo-4FO">
+                                    <rect key="frame" x="61" y="13" width="1" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.90000000000000002" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="6aH-8a-I7C">
+                                    <rect key="frame" x="137" y="13" width="1" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.90000000000000002" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="5Ab-Ck-yse">
+                            <rect key="frame" x="361" y="0.0" width="207" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="centro_trans_ios-14.png" id="5fB-wE-z0s">
+                                    <rect key="frame" x="0.0" y="7" width="203" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xHk-30-2cz">
+                                    <rect key="frame" x="20" y="12" width="62" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="21" maxY="0.0"/>
+                                    <state key="normal" image="centro_trans_ios-10.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpTransferBuy:" destination="-1" eventType="touchUpInside" id="Wcp-HF-la8"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vNS-Rf-8ap">
+                                    <rect key="frame" x="74" y="12" width="62" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="21" maxY="0.0"/>
+                                    <state key="normal" image="centro_trans_ios-30.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpTransferSell:" destination="-1" eventType="touchUpInside" id="yMl-7c-1gl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zSC-jd-Z2H">
+                                    <rect key="frame" x="135" y="12" width="62" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" image="centro_trans_ios-12.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="tapUpTransferCoins:" destination="-1" eventType="touchUpInside" id="ZtW-Dq-TiU"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <view contentMode="scaleToFill" id="E2i-Tw-V3l">
+            <rect key="frame" x="0.0" y="0.0" width="228" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rpu-Lj-omA">
+                    <rect key="frame" x="68" y="4" width="34" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="SlJ-Wa-7Ms">
+                    <rect key="frame" x="123" y="3" width="34" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UzN-uR-IuZ">
+                    <rect key="frame" x="123" y="3" width="34" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="abc-V7-LCS">
+            <rect key="frame" x="0.0" y="0.0" width="228" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-9999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dv0-qB-QBK">
+                    <rect key="frame" x="60" y="5" width="69" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-07.png" id="jfp-yN-mMq">
+                    <rect key="frame" x="135" y="10" width="33" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="6Rt-gy-avL">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="UPU-E7-61W">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="R85-mI-W71">
+                            <rect key="frame" x="44" y="0.0" width="480" height="320"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_ios-29.png" id="eUM-3b-6QF">
+                                    <rect key="frame" x="101" y="70" width="269" height="129"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUARDAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KpG-z6-8NM">
+                                    <rect key="frame" x="158" y="77" width="201" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iMH-4a-dAU">
+                                    <rect key="frame" x="117" y="108" width="242" height="85"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <string key="text">There was a problem trying to buy the coins pack. Your purchase couldn't complete. Please make sure you have an Apple ID and you have credit to make purchases, and try again later</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AWG-F7-Pfb">
+                                    <rect key="frame" x="179" y="207" width="113" height="43"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="contentEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="OK" backgroundImage="Inicio_ios-32.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="Inicio_ios-31.png"/>
+                                    <connections>
+                                        <action selector="tapUpAlertAction:" destination="-1" eventType="touchUpInside" id="fr9-7v-89e"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Inicio_ios-25.png" width="1136" height="640"/>
+        <image name="Inicio_ios-31.png" width="200" height="87"/>
+        <image name="Inicio_ios-32.png" width="200" height="87"/>
+        <image name="Inicio_ios-40.png" width="449" height="252"/>
+        <image name="centro_trans_ios-10.png" width="45" height="48"/>
+        <image name="centro_trans_ios-12.png" width="45" height="48"/>
+        <image name="centro_trans_ios-14.png" width="406" height="67"/>
+        <image name="centro_trans_ios-30.png" width="45" height="48"/>
+        <image name="home_ios-07.png" width="67" height="42"/>
+        <image name="home_ios-08.png" width="48" height="50"/>
+        <image name="home_ios-09.png" width="411" height="69"/>
+        <image name="home_ios-19.png" width="82" height="94"/>
+        <image name="home_ios-29.png" width="538" height="259"/>
+        <image name="home_ios-42.png" width="38" height="43"/>
+        <image name="home_ios-43.png" width="58" height="50"/>
+        <image name="noti_ios-05.png" width="44" height="45"/>
+        <image name="noti_ios-06.png" width="47" height="50"/>
+    </resources>
+</document>
